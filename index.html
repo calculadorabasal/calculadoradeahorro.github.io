@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Regla de 50/30/20 para ahorrar</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="información">
+                <div class="contenido">
+                    <div class="formas">
+                      <h1>¿Cuáles son las categorías?</h1>
+                      <ul>
+                          <li><b>Necesdades primarias</b> son todos los gastos fijos y de primera necesidad 
+                            <ul>
+                              <li>Alquiler o vivienda</li>
+                              <li>Gastos habituales de la vivienda como: electricidad, agua o internet y teléfono</li>
+                              <li>Transporte</li>
+                              <li>Alimentos</li>
+                              <li>Pagos de la escolaridad</li>
+                            </ul> 
+                          </li>
+                          <li><b>Los caprichos</b> son aquellos gastos del día a día o puntuales que pueden ser prescindibles
+                            <ul>
+                              <li>Entretenimiento (inclusive el videocacle)</li>
+                              <li>Cenas fuera de casa</li>
+                              <li>Membresias de gimnasios</li>
+                              <li>Pasatiempos</li>
+                              <li>Cuidado personal más allá de lo básico</li>
+                              <li>Planes de télefono celular</li>
+                            </ul>  
+                          </li>
+                          <li><b>Los ahorros</b> son el dinero que no está destinado a gastar</li>
+                            <ul>
+                              <li>Debe ser calculado a partir de todos los ingresos (sueldo y también dinero extra que la persona gana)</li>
+                              <li>Debe descontarse y ser guardado nada más recibir los ingresos</li>
+                            </ul>  
+                      </ul>
+                    </div>
+                    <div id = elCalculador>
+                        <h1>Cálculadora Método 50/30/20</h1>
+                        <h2>Realize el cálculo a partir de sus ingresos!!</h2>
+                        <p class="item">Complete el monto total de sus ingresos mensuales</p>
+                        <input class="item" id="ingresos" type="number" placeholder="Ingresos totales" />
+                        <p class="item" id="error">Debe completar todos los datos</p>
+                        <button class="item" id="calcular">Calcular</button>
+                        <p class="item resultado" id="50"></p>
+                        <p class="item resultado" id="30"></p>
+                        <p class="item resultado" id="20"></p>
+                    </div>
+                    <div id="metodo">
+                        <div class="contenido">
+                            <h1>¿Cómo se calcula?</h1>
+                            <ul>
+                                <li>Se puede multiplicar el total por el porcentaje requerido en cada categoría
+                                  <ul>
+                                    <li><b>Necesidades primarias</b> = Ingresos*50%</li>
+                                    <li><b>Caprichos</b> = Ingresos*30%</li>
+                                    <li><b>Ahorro</b> = Ingresos*20%</li>
+                                  </ul>
+                                </li>
+                                <li>Otra forma es multiplicar los ingresos por 50, 30 o 20 y luego dividirlos con 100
+                                    <ul>
+                                        <li><b>Necesidades primarias</b> = (Ingresos*50)/100</li>
+                                        <li><b>Caprichos</b>  = (Ingresos*30)/100</li>
+                                        <li><b>Ahorros</b>  = (Ingresos*20)/100</li>
+                                    </ul>
+                                </li>  
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,93 @@
+
+body {
+    font-family: brutalism, sans-serif;
+   background-color: mediumseagreen;
+  }
+     
+  #contenedor{
+   width: 1500px;
+   height: 900px;
+    position: absolute;
+    margin: auto;
+    border-color: rgb(138, 149, 18);
+    background-color: #06ca6b;
+    border-radius: 15px;
+  }
+ 
+
+.formas{
+    float: left;
+    text-align: left;
+    width: 25%;
+    height: 680px;
+    display: block;
+    margin-left: 29px;
+    margin-top: 10px;
+    border-color: black;
+    line-height: 25px;
+    background-color: #33CCFF;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#elCalculador{
+    float: left;
+    text-align: center;
+    width: 36%;
+    height: 680px;
+    border-color: rgb(138, 149, 18);
+    background-color: darkolivegreen;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    inset: 0;
+    
+    
+
+
+}
+
+#metodo{
+    width:35%;
+    height: 680px;
+    position: relative;
+    inset: 0;
+    float: right;
+    margin-top: 10px;
+    margin-right: 29px;
+    display: flex;
+    border-color: rgb(138, 149, 18);
+    text-align: left;
+    background-color: olivedrab;
+    border-radius: 10px;
+    overflow: hidden;
+    line-height: 21px;
+    background-image: url(https://www.elcorreoextremadura.com/imagenes/noticias_regionales/noticia_31640.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+button{
+    font-size: 20px;
+    margin-top: 10px;
+        font-weight: bold;
+        padding: 12px 45px;
+        border-radius: 30px;
+        background-color: yellowgreen;
+        border: 1px solid #045220;
+        color: black;
+        letter-spacing: 1PX;
+        transition: transform 3,5ms ease-in;
+}
+button:active{
+    transform: scale(0.99);
+}
+input{
+    width: 250px;
+    height: 30px;
+    padding: 20px 15px;
+    border: none;
+    background-color: darkseagreen;
+    border-radius: 10px;
+}
